@@ -1,15 +1,9 @@
-img{
-  size:5px;
-  width: 200px;
-  height:200px;
-}
-
 body{
-  background-color:#e6e4e4;
-  border-style:solid;
-  border-color:dimgrey;
-  border-width:4px;
-  margin:10px;
+background-color:#e6e4e4;
+border-style:solid;
+border-color:dimgrey;
+border-width:4px;
+margin:10px;
 }
 
 h1{
@@ -36,18 +30,23 @@ a{
   padding:3px;
   background-color:azure;
 }
+.text a{
+  border-style:none;
+  background-color:#e6e4e4;
+  text-decoration:underline;
+}
 
 .links{
   text-align:center;
-  margin-bottom: 5px;
-
+  margin: 10px;
+  
 }
 .images{
   display:flex;
   justify-content:center;
-
+  
   flex-wrap:wrap;
-
+  
 }
 
 a:link{
@@ -63,5 +62,5 @@ a:hover{
 }
 
 a:active{
-
+  
 }
