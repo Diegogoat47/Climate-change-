@@ -39,8 +39,15 @@ a {
 .links {
   text-align:center;
   margin: 10px;
-  
 }
+
+.parent {
+  display:flex;
+   flex-wrap:wrap;
+  text-align:center;
+  flex-grow:1;
+}
+
 .images {
   display:flex;
   justify-content:center;
@@ -62,3 +69,4 @@ a:hover {
 a:active {
   
 }
+
