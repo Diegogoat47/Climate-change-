@@ -1,3 +1,4 @@
+
 body {
 background-color:#e6e4e4;
 border-style:solid;
@@ -40,7 +41,7 @@ a {
   text-align:center;
   margin: 10px;
 }
-
+/*Make parent class and add flex*/
 .parent {
   display:flex;
    flex-wrap:wrap;
